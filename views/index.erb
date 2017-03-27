@@ -1,0 +1,25 @@
+<h1>Welcome to Triangle Identification App</h1>
+<form action="/display">
+    <div class="form-group">
+        <label for="side_a">Input Side A
+        </label>
+        <input id="side_a" name="side_a" class="form-control" type="number">
+
+        <label for="side_b">Input Side B
+        </label>
+          <input id="side_b" name="side_b" class="form-control" type="number">
+
+        <label for="side_c">Input Side C
+        </label>
+        <input id="side_c" name="side_c" class="form-control" type="number">
+
+    </div>
+    <button type="submit" class="btn-success">Send</button>
+</form>
+
+<h3> Your Triangle has the following sides: </h3>
+<h4> Side A : <%=@side_a%></h4>
+<h4> Side B : <%=@side_b%></h4>
+<h4> Side C : <%=@side_c%></h4>
+
+<h3> The Triangle is: <%=@result%></h3>

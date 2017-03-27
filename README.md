@@ -10,9 +10,9 @@ https://enigmatic-reaches-33313.herokuapp.com/display?side_a=10&side_b=11&side_c
 - scalene: no sides are equal.
 - NOT a triangle: the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.
 
-## Under this RUBY project:
-* Specs have complete coverage for the behaviors that need to be tested.
-* All specs are passing.
+<!-- ## Under this RUBY project:
+<!-- * Specs have complete coverage for the behaviors that need to be tested. -->
+<!-- * All specs are passing. --> 
 
 ## setup instructions:
 * `git clone <repository-url>` this repository
